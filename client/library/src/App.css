@@ -1,0 +1,84 @@
+.app {
+	height: 100vh;
+	padding: 0 100px;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+.books {
+	display: flex;
+	flex-wrap: wrap;
+
+	margin: 2em 0;
+}
+
+.book {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+img {
+	width: 250px;
+	height: 260px;
+	object-fit: cover;
+	background-color: rgb(162, 231, 231);
+}
+
+.delete {
+	border: none;
+	padding: 3px 6px;
+	background: white;
+	cursor: pointer;
+	color: red;
+}
+.delete:hover {
+	background: red;
+	color: white;
+}
+
+.update {
+	border: none;
+	padding: 3px 6px;
+	background: white;
+	cursor: pointer;
+	color: blue;
+}
+.update:hover {
+	background: blue;
+	color: white;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+input {
+	width: 250px;
+	padding: 10px;
+	border: 1px solid gray;
+}
+
+.formButton {
+	border: none;
+	background-color: rgba(240, 13, 13, 0.664);
+	color: white;
+	padding: 10px;
+}
+button {
+	padding: 10px;
+	color: white;
+	background-color: coral;
+	border: none;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
